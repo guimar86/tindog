@@ -55,3 +55,39 @@ h1 {
 
     margin: 5% 3% 5% 0;
 }
+
+/*features*/
+
+#features {
+
+    padding: 7% 10%;
+    text-align: center;
+}
+
+
+.feature-box h2 {
+
+    font-size: 4rem;
+}
+
+.features-icon {
+
+    color: #ef8172;
+    height: 3rem;
+}
+
+.features-icon:hover {
+
+    color: #ff4c68;
+}
+
+.feature-box h3 {
+
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.feature-box p {
+
+    color: #8f8f8f;
+}
