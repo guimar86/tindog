@@ -1,6 +1,12 @@
+body {
+
+    font-family: 'Montserrat', sans-serif;
+}
+
 #title {
 
     background-color: #ff6c68;
+    color: #FFF;
 }
 
 .container-fluid {
@@ -11,35 +17,41 @@
 h1 {
     font-family: 'Montserrat';
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
     color: #FFF;
 }
 
 .rotated-img {
-    transform: rotate(20deg);
+    transform: rotate(25deg);
+    width: 60%;
 }
 
-.tindog-header {
 
-    margin-top: 5rem;
-
-}
-
-.tindog-title {
+.navbar-brand {
     color: #FFF;
-    font-size: 4rem;
-    font-weight: 400;
+    font-size: 3rem;
+    font-weight: bold;
     font-family: ubuntu, sans-serif;
 }
 
 .nav-link {
     color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 100;
 }
 
 .nav-item {
 
-    margin-left: 3rem;
-    font-size: 1.50rem;
-    font-family: ubuntu, sans-serif;
+    padding: 0 18px;
+}
+
+.navbar {
+
+    padding: 0 0 4.5rem;
+}
+
+.download-button {
+
+    margin: 5% 3% 5% 0;
 }
