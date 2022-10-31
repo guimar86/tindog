@@ -164,3 +164,18 @@ h2 {
     font-size: 3.5rem;
     font-weight: bold;
 }
+
+#footer {
+
+    padding: 5% 17%;
+    text-align: center;
+}
+
+.footer-icon {
+
+    padding: 3% 2%;
+}
+
+.footer-icon:hover {
+    cursor: pointer;
+}
