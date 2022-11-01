@@ -1,43 +1,12 @@
+/*html selectors */
+
 body {
 
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-#title {
-
-    background-color: #ff6c68;
-    color: #FFF;
-}
-
-.container-fluid {
-
-    padding: 3% 15% 7%;
-}
-
-h1 {
-    font-family: 'Montserrat';
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    color: #FFF;
-}
-
-h2 {
-    font-family: 'Montserrat';
-    font-weight: 900;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-
-
-.rotated-img {
-    transform: rotate(25deg);
-    position: absolute;
-    right: 25%;
-    height: 70%;
-}
-
+/*navigation bar */
 
 .navbar-brand {
     color: #FFF;
@@ -62,6 +31,70 @@ h2 {
     padding: 0 0 4.5rem;
 }
 
+/*Headings*/
+.big-heading {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #FFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+
+/*h2 for price*/
+.price-text {
+
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*h2 for testimonials*/
+.testimonial-text {
+
+
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*h2 for any heading*/
+.section-heading {}
+
+#title {
+    background-color: #ff4c68;
+    color: #FFF;
+    text-align: left;
+}
+
+/*containers*/
+.container-fluid {
+
+    padding: 7% 10%;
+}
+
+#title .container-fluid {
+
+    padding: 3% 15% 7%;
+}
+
+.rotated-img {
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+    height: 70%;
+}
+
+
+
 .download-button {
 
     margin: 5% 3% 5% 0;
@@ -70,13 +103,14 @@ h2 {
 /*features*/
 
 #features {
-
-    padding: 7% 10%;
-    text-align: center;
     background-color: #FFF;
     position: relative;
 }
 
+.feature-title {
+
+    font-size: 1.5rem;
+}
 
 .feature-box h2 {
 
@@ -106,16 +140,8 @@ h2 {
 }
 
 #testimonials {
-
-
-    text-align: center;
     background-color: #ef8172;
     color: #FFF;
-}
-
-.carousel-item {
-
-    padding: 7% 10%;
 }
 
 .testimonial-image {
@@ -130,7 +156,6 @@ h2 {
 #press {
 
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -144,7 +169,6 @@ h2 {
 #pricing {
 
     padding: 100px;
-    text-align: center;
 }
 
 #pricing .card-body {
@@ -160,21 +184,12 @@ h2 {
 #cta {
 
     background-color: #ff4c68;
-    padding: 7% 10%;
     color: #FFF;
-    text-align: center;
-}
-
-#cta h3 {
-
-    font-size: 3.5rem;
-    font-weight: bold;
 }
 
 #footer {
 
     padding: 5% 17%;
-    text-align: center;
 }
 
 .footer-icon {
